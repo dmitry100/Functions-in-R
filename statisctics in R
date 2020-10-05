@@ -1,0 +1,8 @@
+outliers.rm <- function(x){
+   
+  x <- x[x<1.5*IQR(x)+quantile(x,0.75)&x>quantile(x,0.25)-1.5*IQR(x)]
+  boxplot(x)
+  return(x)
+}
+
+outliers.rm(x)
