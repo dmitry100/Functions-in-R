@@ -1,3 +1,4 @@
+# объеденение нескольких файлов с типом csv из рабочей директории в один data frame
 read_data <- function(){
   
   df <- data.frame()
