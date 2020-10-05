@@ -6,4 +6,4 @@ outliers.rm <- function(x){
   return(x)
 }
 
-outliers.rm(x)
+outliers.rm(x) 
