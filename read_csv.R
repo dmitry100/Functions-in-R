@@ -7,6 +7,6 @@ read_data <- function(){
     df <- rbind(temp_df,df)
     num <- num+1
   }
-  print(paste(as.character(num),"ôàéëîâ áûëî îáúåäåíåíî"))
+  print(paste(as.character(num),"files was added"))
   return(df)
 } 
