@@ -17,3 +17,4 @@ my_na_rm <- function(x){
     print("X не числовой формат")
   }
 }
+ 
