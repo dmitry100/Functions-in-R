@@ -1,2 +1,2 @@
 # projects
-something
+небольшие полезные функции в R
